@@ -75,13 +75,16 @@ public class Main {
                     System.out.println("Impossibile effettuare la disdetta: " + e.getMessage());
                 }
 
-                System.out.println("Vuoi effettuare un'altra disdetta? (Sì/No)");
+                System.out.println("Vuoi effettuare un'altra disdetta? (y/n)");
                 risposta = scanner.nextLine().toLowerCase();
             }
 
             
-            System.out.println("Numero di posti prenotati: " + ev1.getNumPostiPrenotati());
-            System.out.println("Numero di posti disponibili: " + (ev1.getNumPostiPrenotati() - ev1.getNumPostiPrenotati()));
+            System.out.println("Numero di posti prenotati: " + esong1.getNumPostiPrenotati());
+            System.out.println("Numero di posti disponibili: " + (esong1.getNumPostiPrenotati() - esong1.getNumPostiPrenotati()));
+            
+            System.out.println("Numero di posti prenotati: " + esong1.getNumPostiPrenotati());
+            System.out.println("Numero di posti disponibili: " + (esong1.getNumPostiPrenotati() - esong1.getNumPostiPrenotati()));
             
             
         } catch (Exception e) {
